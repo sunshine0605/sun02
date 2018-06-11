@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="c02.css">
+</head>
+<body>
+    <h1 class="center">学习</h1>
+    <ol>
+        <li>口号</li>
+    
+    <!-- color属性定义的是文本的颜色 -->
+    <div style="color:pink">
+        <p>好好学习，天天向上</p>
+        <p>好好学习，天天向上</p>
+        <p>好好学习，天天向上</p>
+        <p>好好学习，天天向上</p>
+        
+        <img src="../src/dog.gif" alt="动图" class="a2">
+    </div>
+    <div class="a2"> <img src="../src/dog.gif" alt="动图" ></div>
+    <li>目的</li>
+    <div>
+        <span>实现自己存在的<b>价值</b></span><br/>
+        <span id="one">实现自己存在的梦想</span><br/>
+        <p class="a1">当我年轻的时候，我梦想改变这个世界；当我成熟以后，我发现我不能够改变这个世界，
+            我将目光缩短了些，决定只改变我的国家；当我进入暮年以后，我发现我不能够改变我们的
+            国家，我的最后愿望仅仅是改变一下我的家庭，但是，这也不可能。当我现在躺在床上，
+            行将就木时，我突然意识到：如果一开始我仅仅去改变我自己，然后，我可能改变我的家
+            庭；在家人的帮助和鼓励下，我可能为国家做一些事情；然后，谁知道呢?我甚至可能改变
+            这个世界。</p>
+    </div>
+    <li>方法</li>
+    <div style="width:50%">
+        <a href="http://www.runoob.com" item-width="50%">菜鸟教程</a>
+        <a href="http://www.baidu.com" class="a3" >百度</a>
+    </div>
+    <li>图片</li>
+    <div>
+        <img src="../src/01.jpg" width="25%">
+        <img src="../src/02.jpg" width="25%">
+        <img src="../src/03.jpg" alt="狗狗" width="25%">
+        <img src="../src/04.png" alt="flower" width="25%">
+    </div>
+    <li>js输出数据的四种方法</li>
+    <div>
+        <button onclick="myFunction()">显示时间</button>
+        <p>第一种方法：使用windows.alert弹出一个对话框。</p>
+        <p>从 JavaScript 访问某个 HTML 元素，您可以使用 document.getElementById(id) 方法。
+        
+            <br/> 请使用 "id" 属性来标识 HTML 元素，并 innerHTML 来获取或插入元素内容：</p>
+        <p>使用 document.write() 仅仅向文档输出写内容。 如果在文档已完成加载后执行 document.write，整个 HTML 页面将被覆盖。
+        </p>
+        <p>使用 console.log() 方法在浏览器中显示 JavaScript 值。 浏览器中使用 F12 来启用调试模式， 在调试窗口中点击 "Console" 菜单</p>
+        <script>
+            window.alert(3+4);
+            document.getElementById("one").innerHTML="实现自己的梦想";
+            function myFunction(){
+                document.write(Date()); 
+            }  
+            console.log(7+8);
+        </script>
+
+    </div>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body{
+    color: red;
+}
+/*  color属性定义的是文本的颜色  */
+h1{
+    color:blue;
+}
+.a1{
+    text-align: justify;
+}
+.center{
+    text-align: center;
+}
+.a2{
+    /* text-align: right;
+    position: fixed; */
+    /* position: relative;
+    right: 200px; */
+    /* 粘性定位 */
+    position: -webkit-sticky;
+    position: sticky;
+    top:10px;
+    right: 90%;
+}
+.a3{
+    text-decoration: none;
+}
+div{height: 300px;overflow: scroll}
+a:link{background-color:yellow; }

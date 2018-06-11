@@ -1,0 +1,42 @@
+h1{
+    color:blue;
+}
+#text{
+    text-align:right;
+    color:orange;
+}
+.center{
+    text-align:center;
+    display: block;
+}
+body {
+    color: #f43700 ;
+    background-color: oldlace;
+    background-image: url('src/04.png');
+    background-attachment: scroll;
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+div{
+    width:200px;
+    background-color: maroon;
+    margin: 40px;
+    padding: 20px;
+    border: rgb(21, 199, 51);
+}
+a{
+    width: 30%;
+    margin: 40px;
+    padding:25px;
+    border:yellow;
+}
+img{
+    margin: 40px;
+    padding:25px;
+    border-style: dotted;
+    border-color: violet;
+    float: left;
+}
+.clear{
+    clear: both;
+}
